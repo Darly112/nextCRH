@@ -42,7 +42,7 @@ export default function Home() {
   const subObj = 'Pues mejorar mi capacidad de entendimiento y la implementación de las tecnológicas tanto en Front-end y Back-end. Esto incluye los lenguajes tales como Java, c++ y JavaScript.'
   const traCont =[
     {titulo:'IDS Movies',subtitulo:'Explora un vasto catálogo de películas de todos los géneros, desde emocionantes películas de acción hasta conmovedores dramas y divertidas comedias. ',url:'/atcWeb2.jpg', alt:'img', width:'1000',height:'600'},
-    {titulo:'Farmacia Darwin',subtitulo:'Encontrarás una amplia gama de medicamentos genéricos de alta calidad a precios asequibles. Navega fácilmente por nuestro catálogo, consulta información detallada sobre productos y realiza tus pedidos de forma segura y discreta desde la comodidad de tu hogar. ',url:'/integrador4.jpg', alt:'img', width:'1000',height:'600'},
+    {titulo:'StockSense',subtitulo:'Nuestro software de papelería tiene como propósito general mejorar la gestión de una papelería, permitiendo a los usuarios registrar, controlar el inventario de ventas y compras. ',url:'/integrador4.jpg', alt:'img', width:'1000',height:'600'},
    
   ];
   const infoTra ='Experiencia laboral';
