@@ -1,0 +1,272 @@
+.mainH{
+    padding: 2em;
+}
+
+.mainH.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+.header{
+    background-color: #00171f;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    text-align: center;
+}
+.header h1{
+    text-align: center;
+    display: flex;
+  
+    align-items: center;
+}
+.titnav{
+    color: #00a6fb;
+    font-size: 25px;
+    display: flex;
+    
+}
+.nav{
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-around;
+}
+.linkNav{
+    font-size: 18px;
+    color: #00a8e8;
+    text-decoration: none;
+    transition: 1s all ease;
+}
+.linkNav:hover{
+    transform: scale(1.3);
+    font-size: 22px;
+    font-weight: bold;
+}
+.titulo{
+    margin: 5px;
+}
+.presentacion{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.textPre{
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    width: 100%;
+    font-size: 40px;
+   font-family: fantasy;
+    font-weight: bold;
+}
+.imgPre{
+    border-radius: 100%;
+    margin: 10px;
+    
+}
+.imgPrese{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoCont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.infoCont h2{
+    font-size: 40px;
+}
+.infoArt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.infoArt h1{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.infoArt p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contInfoImg{
+    border-radius: 10%;
+    overflow: hidden;
+    transition: 2s all ease;
+}
+.contInfoImg:hover{
+    border-radius: 60%;
+    border: 5px solid;
+    color: #ef233c;
+}
+.contObj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.contObj h2{
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+.contObj p{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.infoObj{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.imgConts{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.imgObj{
+    margin: 30px;
+    transition: 1s all ease;
+}
+.imgObj:hover{
+    transform: scale(1.6);
+    
+}
+.contImgObj{
+    display: flex;
+}
+.contTra{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.infoTra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+.infoTra h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.infoTra p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.contFoo{
+    display: flex;
+   width: 100%;
+ 
+}
+.botonDark{
+    width: 8em;
+    height: 3em;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #fcfffc;
+    margin: 10px;
+    background-color: #00a8e8;
+    border: none;
+    font-weight: bold;
+    transition: 1s all ease;
+}
+.botonDark:hover{
+    border-radius: 15px;
+    transform: scale(1.2);
+    width: 10em;
+    height: 3em;
+    font-size: 16px;
+    margin: 30px;
+}
+.bases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.textBases h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.textBases p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.imgBase{
+    display: flex;
+    border-radius: 50%;
+}
+@media screen and (max-width: 620px) {
+    .presentacion{
+    flex-direction: column;
+    }
+    .imgPrese{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contImgPre{
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+.imgPre{
+    width: 200px;
+    height: 200px;
+}
+.imgtra{
+    width: 350px;
+    height: 150px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.infoObj{
+    display: flex;
+  flex-direction: column;
+}
+    .infoCont{
+        display: flex;
+        flex-direction: column;
+    }
+    .textPre{
+        display: flex;
+        justify-content:center;
+        align-items: start;
+        width: 100%;
+        font-size: 20px;
+    }
+  }
+
